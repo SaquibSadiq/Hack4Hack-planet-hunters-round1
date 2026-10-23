@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# CatBoost output directory
+catboost_info/
+
+# Large binary arrays (downloadable via Google Drive link in PROBLEM_STATEMENT.md)
+*.npy
+
+# Intermediate parquet feature caches (regenerated via python run_feature_extraction.py)
+*.parquet
+*.feather
+
+# Virtual environments & IDE
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Logs
+*.log
